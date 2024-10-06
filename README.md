@@ -16,3 +16,16 @@ It includes Deployment of the trained model in server for real use case. Similar
 Now, with times, data tends to change/evolve, so we may need to update and re-evalute our data and most like to re-train our model again. This is the crucial part of MLOps.
 
 ![alt text](<Week 1/Into_to_MLOps.png>)
+
+# Day 2 of MLOps
+Ever thought that is ML project life cycle is linear or circular? If you have read previous prologue then it must be clear that it is circular and to our suprise, we there is no any fixed starting and ending point once you have deployed ML project. **Data Drifting** and **Concept Drifiting** are two important factor considering deployment. 
+
+- **Data Drifting:** When output data changes gradually or suddenly with the input data remains more or less same is called data drifting. For example in House price prediction, where input is Size of house and output is price of house. Now, due inflation or something house price increases while size of house remains constant. This is called data drifting.
+
+- **Concept Drifting:** When both o/p and i/p changes accordingly. when the increasing size of house increases price of house.
+
+- Studied about **Deployment Pattern:**
+-> Shadow Deployment, where final decision is made with human consent.
+-> Partial Deployment, where the model get confused then human intervention. This is impossible for large companies.
+
+![alt text](<Week 1/Deployment.png>)
