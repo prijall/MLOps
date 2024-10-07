@@ -29,3 +29,11 @@ Ever thought that is ML project life cycle is linear or circular? If you have re
 -> Partial Deployment, where the model get confused then human intervention. This is impossible for large companies.
 
 ![alt text](<Week 1/Deployment.png>)
+
+# Day 3 of MLOps
+Monitoring plays crucial part in MLOps where ML Project Lifecycle optimizes iteratively. We all know very well that our dies at some point of time even if we have a good quality of data. There are various causes like discussed yesterday where Concept drifting and data drifting plays crucial role.
+Similarly, some ML models need to  be retrained on Yearly basis where some needs to be on daily basis. Learnt about inner working monitoring phase in ML Operations. I know these are theory concepts, felt little boring but did it anyway.
+
+![alt text](<Week 1/Data_drift.png>)
+
+![alt text](<Week 1/Concept_drift.png>)
