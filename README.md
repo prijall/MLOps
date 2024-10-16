@@ -37,3 +37,8 @@ Similarly, some ML models need to  be retrained on Yearly basis where some needs
 ![alt text](<Week 1/Data_drift.png>)
 
 ![alt text](<Week 1/Concept_drift.png>)
+
+# Day 4 of MLOps
+Today, I revised model for machine learning using scikit learn to brush up my concept for further days on ml training and deployment. Watched lectures on MLops on Coursea which is more or less theoritical.
+
+![alt text](Photo/ML_training(revision).png)
