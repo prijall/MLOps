@@ -42,3 +42,22 @@ Similarly, some ML models need to  be retrained on Yearly basis where some needs
 Today, I revised model for machine learning using scikit learn to brush up my concept for further days on ml training and deployment. Watched lectures on MLops on Coursea which is more or less theoritical.
 
 ![alt text](Photo/ML_training(revision).png)
+
+# Day 5 of MLOps
+Studied about automation and deployment in MLOps. There are mainly four types of **Maturity models** those to helps to clarify the MLOps principles and practise are:
+
+- **No MLOps:** difficult to manage, everything on notebook. it is proof of concept.
+
+- **DevOps but no MLOps:** Contains automated testing, releases are comaparatively.
+
+- **Automated Training:** Contains Automated training and model management.
+
+- **Automated Model Deployment:** Contains integrated A/B test, tracking.
+
+- **Full MLOps automated Operations:** Fully system automated and easily monitored.
+
+Moreover, Implemented MLFlow, a python package containing four module: **Tracking, Models, Model Registry, Projects.**
+
+![alt text](Photo/ML_Flow_into_code.png)
+
+![alt text](Photo/ML_FLOW_with_sqlite.png)
