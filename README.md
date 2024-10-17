@@ -44,7 +44,7 @@ Today, I revised model for machine learning using scikit learn to brush up my co
 ![alt text](Photo/ML_training(revision).png)
 
 # Day 5 of MLOps
-Studied about automation and deployment in MLOps. There are mainly four types of **Maturity models** those to helps to clarify the MLOps principles and practise are:
+Studied about automation and deployment in MLOps. There are mainly 5 types of **Maturity models** those to helps to clarify the MLOps principles and practise are:
 
 - **No MLOps:** difficult to manage, everything on notebook. it is proof of concept.
 
