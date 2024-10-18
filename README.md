@@ -61,3 +61,23 @@ Moreover, Implemented MLFlow, a python package containing four module: **Trackin
 ![alt text](Photo/ML_Flow_into_code.png)
 
 ![alt text](Photo/ML_FLOW_with_sqlite.png)
+
+# Day 6 of MLOps
+Learnt about **Model tracking/Experimental tracking** and **Model Registry**. Did following things:
+- Model hyper-parameter tracking and training Xgboost.
+- Selected top params from mlflow sqlite backend setup(did upto 10 evals due to large training time)
+- trained the model again with best params.
+- used mlflow to setup artifacts, to save model in sqlite mlflow backend and loaded model.
+- predicted on save model which are handy due to mlflow.
+
+- Code to train xgboost with best of hyper params:
+
+![alt text](Photo/Hyperparameter_tuning_mlflow.png)
+
+- Prediction using mlflow:
+
+![alt text](Photo/prediction_mlflow.png)
+
+- model tracking in mlflow backend database:
+
+![alt text](Photo/model_tracking_mlflow.png)
