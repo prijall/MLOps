@@ -10,3 +10,12 @@
 - Failed generating blueprint pipeline due to PydanticSchemaGenerationError, tried solving but couldn't will try tom.
 
 ![alt text](Photos/Ingestion_data_blueprint.png)
+
+# Day 3
+- Created file for data cleaning under src where i created abstract class for data strategy. With the help of the function, I created other classes for strategies like DataPreProcessingStrategy, DataDivisionStrategy and Data cleaning.
+
+![alt text](Photos/data_cleaning_src.png)
+
+- Later implemented them in main data cleaning portion in steps.
+
+![alt text](Photos/data_cleaning_steps.png)
