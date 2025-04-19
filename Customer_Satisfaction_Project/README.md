@@ -19,3 +19,11 @@
 - Later implemented them in main data cleaning portion in steps.
 
 ![alt text](Photos/data_cleaning_steps.png)
+
+# Day 4
+Just wrote code for model development and training. With the abstract class, We can create as many model for verification which can improve model performance.
+Since, the project is really simple i am going to use very basic model.
+
+![alt text](Photos/model_development.png)
+
+![alt text](Photos/model_training.png)
