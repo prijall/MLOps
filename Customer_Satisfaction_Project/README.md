@@ -27,3 +27,10 @@ Since, the project is really simple i am going to use very basic model.
 ![alt text](Photos/model_development.png)
 
 ![alt text](Photos/model_training.png)
+
+# Day 5
+Completed Building steps on which today the evaluation portion is completed. There has been  issue with the ZenML version need to correct it so that i can rum the pipeline atleast.
+
+![alt text](Photos/evaluation_src.png)
+
+![alt text](Photos/evaluation_steps.png)
