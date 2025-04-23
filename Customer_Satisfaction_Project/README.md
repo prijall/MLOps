@@ -34,3 +34,9 @@ Completed Building steps on which today the evaluation portion is completed. The
 ![alt text](Photos/evaluation_src.png)
 
 ![alt text](Photos/evaluation_steps.png)
+
+# Day 6
+- Completed experimental tracking where added model deployer and experimental tracker. Face issue to register local deployer for cloud server, the utimate solution was to disconnet with the server and create container for this.
+- Solved the config fuction importing issue with pydantic lib(used for data validation and settings management)
+
+![alt text](Photos/Experimental_tracking.png)
