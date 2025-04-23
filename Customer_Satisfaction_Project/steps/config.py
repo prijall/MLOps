@@ -1,4 +1,4 @@
-from zenml.steps import BaseParameters
+from pydantic import BaseModel  # Changed import
 
-class ModelNameConfig(BaseParameters):
-    model_name:str='LinearRegression'
+class ModelNameConfig(BaseModel):  # Inherit from Pydantic's BaseModel
+    model_name: str = "LinearRegression"
