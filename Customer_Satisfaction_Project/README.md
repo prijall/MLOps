@@ -40,3 +40,8 @@ Completed Building steps on which today the evaluation portion is completed. The
 - Solved the config fuction importing issue with pydantic lib(used for data validation and settings management)
 
 ![alt text](Photos/Experimental_tracking.png)
+
+# Day 7
+Developed Blueprint for the pipeline deployment where the concept is to make to kinds of pipeline i.e deployment pipeline(used during training) and inference pipeline(used during prediction). will continue to work tomorrow:)
+
+![alt text](Photos/deployment_run.png)
