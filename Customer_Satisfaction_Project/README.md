@@ -45,3 +45,8 @@ Completed Building steps on which today the evaluation portion is completed. The
 Developed Blueprint for the pipeline deployment where the concept is to make to kinds of pipeline i.e deployment pipeline(used during training) and inference pipeline(used during prediction). will continue to work tomorrow:)
 
 ![alt text](Photos/deployment_run.png)
+
+# Day 8
+Prepared Continuous Deployment Pipeline by setting criteria for minimum accuracy upon which to model will get deployed into the server. Couldn't test it out today, main running pipeline in incompelete as i couldn't understand some integration.
+
+![alt text](Photos/Continous_Deployment_pipeline.png)
