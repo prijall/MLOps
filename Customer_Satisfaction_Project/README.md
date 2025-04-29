@@ -50,3 +50,8 @@ Developed Blueprint for the pipeline deployment where the concept is to make to 
 Prepared Continuous Deployment Pipeline by setting criteria for minimum accuracy upon which to model will get deployed into the server. Couldn't test it out today, main running pipeline in incompelete as i couldn't understand some integration.
 
 ![alt text](Photos/Continous_Deployment_pipeline.png)
+
+# Day 9
+Completed code for model deployment, couldn't deploy it as inference deployment is remaining, once inference pipeline will be completed hopefully everything should fall in place:)
+
+![alt text](Photos/model_deployment.png)
