@@ -55,3 +55,8 @@ Prepared Continuous Deployment Pipeline by setting criteria for minimum accuracy
 Completed code for model deployment, couldn't deploy it as inference deployment is remaining, once inference pipeline will be completed hopefully everything should fall in place:)
 
 ![alt text](Photos/model_deployment.png)
+
+# Day 10
+Completed Inference training code and deployment to streamlit. There were lots of bugs in the code tried solving half of them but will be leaving the rest as it was the first project under full fledge MLOPs. Will be doing other projects with more clear vision.
+
+![alt text](Photos/Inference_code.png)
