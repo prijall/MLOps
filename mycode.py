@@ -8,8 +8,13 @@ data={'Name':['Alice', 'Bob', 'Charlie'],
 
 df=pd.DataFrame(data)
 
+#new entry:
+new_row_loc = {'Name': 'GF1', 'Age': 20, 'City': 'City1'}
+df.loc[len(df.index)] = new_row_loc
+
+
 #@ Checking for data dir:
-data_dir='data'
+data_dir='C:/Users/khadk/Desktop/MLOps/MLOPs_Basics/data'
 os.makedirs(data_dir, exist_ok=True)
 
 #@ Defining paths:
