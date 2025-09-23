@@ -1,0 +1,20 @@
+# Python Official Runtime:
+FROM python:3.8-slim
+
+#creating working directory in the container:
+WORKDIR /app
+
+#copying the current directory contents into container at /app
+COPY . /app/
+
+#install any needed packages specified in the requirements:
+RUN pip install --no-cache-dir -r requirements.txt
+
+#Expose port for outside of container:
+EXPOSE 5000
+
+#defining environment variable:
+ENV FLASK_APP=app.py
+
+#Running:
+CMD [ "flask", "run", "--host=0.0.0.0" ]
